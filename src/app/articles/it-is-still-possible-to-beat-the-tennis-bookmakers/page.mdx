@@ -1,0 +1,27 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Sachin Chhabria',
+  date: '2026-01-09',
+  title: 'It is still possible to beat the tennis bookmakers',
+  description:
+    'A few weeks ago, I decided to pick back up the XGBoost model I built to predict match outcomes for the 2025 Grand Slams.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+A few weeks ago, I picked up the XGBoost model I built at the beginning of 2025 to predict 
+match outcomes for the Grand Slam tournaments. In search of improving my model, I
+decided to read up on the latest relevant literature. Interestingly enough, I came across 
+[this paper](https://arxiv.org/abs/2510.20454) by Lawrence Clegg that suggests there might
+be an exploitable market ineffciciency when it comes to intransitive matchups. He claims to
+have achieved returns of 3.26% ROI with Kelly staking over 1903 bets on ATP and WTA matches
+between January 2023 and June 2025. I'm going to try to recreate his findings in this paper,
+limited to ATP matches due to data availability.
+
+
