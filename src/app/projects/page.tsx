@@ -19,28 +19,28 @@ const projects = [
     name: 'Forty Nine Prints',
     description:
       'A full-stack web app that hosts my photography portfolio and lets users buy physical prints, as well as read the process behind (most of) my work. Built with React, Django and Tailwind CSS. Implemented a responsive gallery system and a secure e-commerce workflow. Integrated Stripe’s API for payment processing, checkout, and order tracking.',
-    link: { href: 'https:/49prints.com/', label: '49prints.com' },
+    link: { href: 'https://49prints.com/', label: '49prints.com' },
     logo: logo49prints,
   },
   {
     name: 'Spotify Rapped',
     description:
       'A web app that allows users to visualize their personalized Spotify data, built with React and Styled Components. Anyone can view their top artists, top tracks, recently played tracks, as well as create and save new playlists of recommended tracks based on their existing playlists. Currently pending approval from Spotify, but I can grant you access if you send me your spotify username.',
-    link: { href: 'https:/spotifyrapped.com/', label: 'spotifyrapped.com' },
+    link: { href: 'https://spotifyrapped.com/', label: 'spotifyrapped.com' },
     logo: logoSpotify,
   },
   {
     name: 'Grand Slam Predictor',
     description:
       'An XGBoost model for Grand Slam tennis match prediction that considers 12 time- and surface-weighted player features (aces, double faults, winners, win streak, etc.). When evaluated on all four 2025 Grand Slams, it achieved 71% accuracy, beating IBM.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://github.com/sachinchabria/weighted-elo-grand-slam-prediction', label: 'github.com' },
     logo: logoTennisBall,
   },
   {
     name: 'Buffet Indicating',
     description:
       'A Python-based mean-reversion trading strategy that dynamically trades SPY using probabilistic extremes of the Buffett Indicator, achieving a Sharpe ratio of 1.53 and outperforming a yield-spread benchmark.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://github.com/sachinchabria/buffet-indicator-research', label: 'github.com' },
     logo: logo49prints,
   },
 ]
